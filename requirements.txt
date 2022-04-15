@@ -1,0 +1,11 @@
+cython
+torch>=1.2.0
+torchvision>=0.4.0
+pysaliency
+scikit-image
+scipy
+numpy
+pillow
+opencv-python
+einops
+pathlib
