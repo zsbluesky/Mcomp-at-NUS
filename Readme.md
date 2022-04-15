@@ -62,7 +62,7 @@ The processed data is in the ```mitdata``` folder.
 
 ## Training
 Please first download the imagenet pretrained transformer model from [TransUnet](https://github.com/Beckschen/TransUNet), and 
-place the model under ```backbone``` dir. We use pretrained model for better result.
+place the model under ```backbone``` dir. We use pretrained model for better result. Also, please start from the pretrained model on salicon for the training on mit1003.
 ```commandline
 # train on salicon
 python train_salicon.py --data_dir your_data_path --output_folder path_of_saved_models
