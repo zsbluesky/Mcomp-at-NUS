@@ -68,7 +68,7 @@ place the model under ```backbone``` dir. We use pretrained model for better res
 python train_salicon.py --data_dir your_data_path --output_folder path_of_saved_models
 
 # train on mit1003, please start the training from the pretrained model on salicon.
-python train_mit1003.py --data_dir your_data_path --output_folder path_of_saved_models
+python train_mit1003.py --data_dir your_data_path --output_folder path_of_saved_models --model_path your_pretrained_model_on_salicon
 ```
 
 ## Test
