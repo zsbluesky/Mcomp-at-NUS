@@ -90,5 +90,5 @@ python calculate_scores_salicon.py
 <img src="assets/quali2.png">
 
 ## Acknowledgements
-The code is heavily based on [TransUnet](https://github.com/Beckschen/TransUNet), [EML-Net](https://github.com/SenJia/EML-NET-Saliency) and [pytorch-fCN](https://github.com/wkentaro/pytorch-fcn).
+The code is heavily based on [TransUnet](https://github.com/Beckschen/TransUNet), [EML-Net](https://github.com/SenJia/EML-NET-Saliency) and [pytorch-fcn](https://github.com/wkentaro/pytorch-fcn).
 The official evaluation is from [pysaliency](https://github.com/matthias-k/pysaliency).
