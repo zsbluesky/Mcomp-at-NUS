@@ -34,7 +34,7 @@ The first figure shows the architecture overview, while the second shows the MAM
 ## Preparing datasets
 Please download SALICON and MIT1003 datasets at http://salicon.net/challenge-2017/ and https://saliency.tuebingen.ai/.
 SALICON is the largest dataset collected by mouse clicking in the field of saliency, in LSUN workshop at CVPR'17 conference. MIT1003 is the most famous benchmark collected by eye tracking device.
-**Place the datasets in the same root dir as the code.**
+**Please place the datasets in the same root dir as the code.**
 
 SALICON:
 
