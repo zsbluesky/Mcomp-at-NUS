@@ -90,7 +90,7 @@ class SSETM(nn.Module):
 
         self.fc = nn.Conv2d(768, 768, kernel_size=1, stride=1, padding=0,
                                bias=False)
-        self.mam = MAM(64, ratio=8)
+        self.mam = MAM(64, ratio=16)
         self.drop = nn.Dropout2d()
         self.score = nn.Conv2d(768, 21, 1)
         self.up = nn.ConvTranspose2d(
