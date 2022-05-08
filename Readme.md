@@ -79,11 +79,6 @@ python eval_salicon.py --image_model_path path_of_your_model --save_segmentation
 # mit1003
 python eval_mit.py --image_model_path path_of_your_model
 ```
-Here we give the **[official evaluation for salicon dataset](https://github.com/matthias-k/pysaliency)**. Please change
-the output_dir in the code first.
-```commandline
-python calculate_scores_salicon.py
-```
 
 ## Some saliency prediction results
 <img src="assets/quali.png">
