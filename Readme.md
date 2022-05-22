@@ -60,6 +60,8 @@ python preprocess_data_mit1003.py
 ```
 The processed data is in the ```mitdata``` folder.
 
+For the dataset of object segmentation preparation, please refer to [pytorch-fcn](https://github.com/wkentaro/pytorch-fcn).
+
 ## Training
 Please first download the imagenet pretrained transformer model from [TransUnet](https://github.com/Beckschen/TransUNet), and 
 place the model under ```backbone``` dir. We use pretrained model for better result. Also, please start from the pretrained model on salicon for the training on mit1003.
