@@ -6,11 +6,11 @@ Saliency Prediction aims to predict attention distribution of
 human eyes given an RGB image. Most of the recent state-of-the-art methods are based on abstract and deep image representations, taking
 advantage of traditional CNNs. However, the traditional convolutional
 structure could not capture the global feature of the image well due to its
-small kernel size. And the high-level factors which closely correlates to
+small kernel size. And the high-level factors which closely correlate to
 human visual perception, e.g., objects, color, light, etc., are not considered.
-Inspired by these, we propose transformer based method with semantic
+Inspired by these, we propose Transformer-based method with semantic
 segmentation as another learning objective. More global cues of the image
-could be captured by transformer and simultaneously learning the object
+could be captured by Transformer and simultaneously learning the object
 segmentation simulates the human visual perception. Our ablation and
 visualization experiments show the effectiveness of the proposed ideas. Our
 model achieves competitive performance compared to other state-of-the-art
@@ -60,7 +60,7 @@ python preprocess_data_mit1003.py
 ```
 The processed data is in the ```mitdata``` folder.
 
-For the dataset of object segmentation preparation, please refer to [pytorch-fcn](https://github.com/wkentaro/pytorch-fcn). **Please place the datasets in the same root dir as the code.**
+For the dataset of object segmentation preparation, please refer to [pytorch-fcn](https://github.com/wkentaro/pytorch-fcn). **Please place the dataset in the same root dir as the code.**
 
 ## Training
 Please first download the imagenet pretrained transformer model from [TransUnet](https://github.com/Beckschen/TransUNet), and 
@@ -88,4 +88,3 @@ python eval_mit.py --image_model_path path_of_your_model
 
 ## Acknowledgements
 The code is heavily based on [TransUnet](https://github.com/Beckschen/TransUNet), [EML-Net](https://github.com/SenJia/EML-NET-Saliency) and [pytorch-fcn](https://github.com/wkentaro/pytorch-fcn).
-The official evaluation is from [pysaliency](https://github.com/matthias-k/pysaliency).
