@@ -60,7 +60,7 @@ python preprocess_data_mit1003.py
 ```
 The processed data is in the ```mitdata``` folder.
 
-For the dataset of object segmentation preparation, please refer to [pytorch-fcn](https://github.com/wkentaro/pytorch-fcn).
+For the dataset of object segmentation preparation, please refer to [pytorch-fcn](https://github.com/wkentaro/pytorch-fcn). **Please place the datasets in the same root dir as the code.**
 
 ## Training
 Please first download the imagenet pretrained transformer model from [TransUnet](https://github.com/Beckschen/TransUNet), and 
