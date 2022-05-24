@@ -17,7 +17,7 @@ model achieves competitive performance compared to other state-of-the-art
 methods. We are among top five in [SALICON benchmark](https://competitions.codalab.org/competitions/17136#results) (user name: shuo3). We are among top two (traditional evaluation, user name: HATES) in [MIT300 benchmark](https://saliency.tuebingen.ai/) (top five including probabilistic evaluation).
 
 The link to the dissertation will be here
-soon.
+soon. The link for the joint learning of saliency prediction and object detection is available at [SalDetect](https://github.com/zsbluesky/SalDetect).
 
 ## Installation
 1. We use Anaconda as the basic environment. Please create a new vitual environment by
